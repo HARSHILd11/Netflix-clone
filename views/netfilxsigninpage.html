@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ <link rel="stylesheet" href="signinpagestyle.css">
+</head>
+
+<body>
+    <div class="main">
+        <!-- <img src="backgoundimage.jpg" alt="" class="backgroundimg"> -->
+        <div class="logo">
+            <div class="logoimg"><img src="logo.png" alt="netflixlogo"></div>
+        </div>
+        <div class="signinbox">
+
+            <div class="login-main">
+                <h1>Sign In</h1>
+                <form action="">
+                    <div class="login-field">
+                        <label class="input_id" placeholder="">
+                            <input type="text" data-uia="login-field" class="nfTextField" autocomplete="email"
+                                spellcheck="false" dir="" placeholder="Email or Phone number" required
+                                oninvalid="this.setCustomValidity('Please enter a valid email address or phone number. ');">
+                            </label>
+                        
+
+                    </div>
+                    <div class="password-field">
+                        <label for="password"><input type="password" placeholder="Password" required
+                            oninvalid="this.setCustomValidity('Your password must contain between 4 and 60 characters. ');"></label>
+
+                    </div>
+                    <a href="whoswatchingpage.html" style="text-decoration: none;"><button type="button" class="sumbit-btn" >
+                        Sign In
+                    </button></a>
+
+                    <div class="hybrid-login">
+                        <div class="remember-me">
+                            <label for="remberme "><input type="checkbox" checked class="checkbox">Remember-me</label>
+                        </div>
+                        <div class="need-help"><a href="#">Need help?</a></div>
+                    </div>
+                </form>
+
+            </div>
+            <div class="login-other">
+                <div class="new-signup">
+                    New to Netflix?
+                    <a class="" target="_self" href="/">Sign up now</a>
+                </div>
+                <div class="terms-of-use" style="margin-bottom: 100px ;">
+                    <p>
+                        <span>Sign in is protected by Google reCAPTCHA to ensure youre not a bot.</span>
+                    </p>
+                </div>
+            </div>
+        </div>
+        <div class="sitefooter">
+            <div class="footer-top">
+                <p style="margin-left: 10px;">Questions? Call 000-800-919-1694</p>
+                <div class="footer-links">
+                    <a href="#" >FAQ</a>
+                    <a href="#">Help Center</a>
+                    <a href="#">Terms of Use</a>
+                    <a href="#">Privacy</a>
+                    <a href="#">Cookie Prefrerences</a>
+                    <a href="#">Corporate information </a>  </div>           
+            </div>
+        </div>
+    </div>
+
+</body>
+
+</html>

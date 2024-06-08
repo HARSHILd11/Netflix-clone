@@ -1,0 +1,361 @@
+* {
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    color: white;
+    overflow: hidden;
+    overflow: scroll;
+    overflow-x: hidden;
+}
+
+.main {
+    display: flex;
+    height: 100vh;
+    padding: 0.75rem;
+    flex-direction: column;
+
+}
+
+.navbaar {
+    display: flex;
+    flex-direction: row;
+    background-color: black;
+
+    height: 68px;
+   
+    width: 100%;
+    position: sticky;
+    position: fixed;
+    scroll-behavior: smooth;
+   top: 0;
+    z-index: 2;
+
+}
+
+.nav1 a {
+    text-decoration: none;
+    color: white;
+    margin-left: 30px;
+}
+
+.nav1 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+
+}
+
+.nav1 :hover {
+    color: rgb(150, 156, 161);
+
+}
+
+.nav2 {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 0px;
+}
+
+.nav2 :hover {
+    color: rgb(150, 156, 161);
+
+}
+
+.nav2 a {
+    text-decoration: none;
+    color: white;
+    margin-left: 20px;
+
+
+}
+
+.logo {
+    margin-top: 5px;
+    width: 120px;
+    height: 40px;
+}
+
+.material-symbols-outlined :hover {
+    animation-name: try;
+    animation-duration: 1s;
+
+
+}
+.v-con  {
+    width: 100%;
+    position: absolute;
+    z-index: 2;
+    
+    margin-top: 40%;
+    margin-left: 10%;
+    font-size: larger;
+    height: 10%;
+
+    
+ 
+}
+.button1{
+    background-color: rgb(57, 57, 39,013.8%);
+  color: white;
+}
+.v-con button{
+    width: 6%;
+    height:40% ;
+    border-radius: 4px;
+    border: none;
+}
+.v-con .button1{
+    position: relative;
+    width:10%;
+    height:40% ;
+    border-radius: 4px;
+}
+.v-con .button1:hover{
+    cursor: pointer;
+    background-color: rgba(174, 151, 151, 0.384);
+}
+.v-con button:hover{
+   cursor: pointer;
+    background-color: rgb(218, 205, 205);
+}
+.videot{
+    display: inline;
+}
+
+.videot video {
+
+   
+    width: 100%;
+    height: 70%;
+    background-color: grey      ;
+    transition: transform  4s;
+    
+}
+.videot:hover{
+    cursor: pointer;
+ 
+
+}
+
+@keyframe try {}
+
+.small-icon {
+    width: 30px;
+    height: 30px;
+}
+
+
+.box {
+    transition: transform .8s;
+    margin: 0px 60px 60px 40px;
+    position: relative;
+    z-index: 0;
+    width: 13.5%;
+}
+
+.box:hover {
+    transform: scale(1.4) ;
+    cursor: pointer;
+    z-index: 2;
+}
+
+.hidd-part {
+    z-index: 2;
+    display: none;
+
+}
+.thumb-up:hover{
+    color: green;
+}
+.hidd-part:hover{
+    display:block ;
+    z-index: 2;
+}
+.icon {
+    margin-left: 0%;
+ margin-right: 100%;
+ margin-bottom: 5%;
+ width: 100%;
+ display: flex;
+}
+.drpdwnicon{
+    padding-bottom: 0%;
+    margin-left: 80%;
+    margin-right: 0%;
+    right:0;
+    color: grey;
+
+}
+.more-info{
+    
+    display: none;
+    border: 1px 1px 0px 1px solid white;
+    font-size: xx-small;
+}
+.drpdwnicon:hover {
+    color: white;
+}
+.drpdwnicon:hover +.more-info{
+    display: inline;
+}
+.BA-image:hover+.hidd-part {
+    cursor: pointer;
+    
+
+
+    display: flex;
+    flex-direction: column;
+    color: white;
+
+}
+
+.container-box {
+    display: flex;
+    flex-direction: row;
+ 
+
+ 
+  text-align: center;
+
+}
+.cont-head{
+    z-index: 0;
+}
+
+
+.BA {
+    width: 100PX;
+    display: none;
+    position: absolute;
+
+}
+
+.nava {
+
+    flex-direction: column;
+    position: absolute;
+    margin-left: 76%;
+    display: none;
+    margin-top: 6%;
+
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 2px;
+    background-color: black;
+    width: 180px;
+    z-index: 2;
+    height: 180px;
+
+}
+
+.nava a {
+    text-decoration: none;
+    color: white;
+    display: block;
+    padding: 5px;
+    transition: transform .8s;
+    z-index: 1;
+
+}
+.nav2:hover +.nava{
+    display: block;
+    cursor: pointer;
+    z-index: 2;
+    transform: scale(1.3);
+    
+   
+
+}
+.nava:hover {
+    display: block;
+    cursor: pointer;
+    transform: scale(1.3);
+    z-index: 3;
+    
+}
+.nava a:hover{
+    text-decoration: underline;
+}
+.nav3{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    margin-left: 370px;
+   
+}
+.nav3 a{
+    text-decoration: none;
+    color: white;
+    padding: 0px 10px 0px 10px ;
+}
+.prologo img{
+    width: 30px;
+    height:30px ;
+}
+
+
+
+.nav3b{
+    color: white;
+    font-size: small;
+    margin-top: 10px;
+    border-top: 1px solid white;
+    padding-top: 5px;
+    text-align: center;
+    width: 100%;
+    
+}
+.nav3b span{
+    align-self: center;
+}
+.nav3b:hover{
+    text-decoration: underline;
+}
+.nava:hover+.arrdwn{
+
+
+}
+.arr{
+    display: flex;
+    flex-direction: row;
+}
+.nav3a1 {
+    display: flex;
+    flex-direction: row;
+}
+.nav3a1 img{
+    width: 30px;
+    height: 30px;
+  
+
+}
+.kids {
+   
+    
+width: 90%;
+
+
+
+}
+.kids span{
+    margin-top: 10px;
+}
+.kids span:hover{
+    text-decoration: underline;
+}
+.kids {
+    font-size: small;
+    padding: 1px;
+    text-align: center;
+    margin-left: 10px;
+}
+.kid{
+    border-bottom: 1px solid white      ;
+}
